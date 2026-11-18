@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vansh Saini | Community Manager &amp; Content Specialist</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6F1EC;--card:#fff;--ink:#1F2433;--mute:#4B5160;--navy:#10108F;--a:#EA580C;--line:#ECE5DD;--soft:#ECEBFF;--shadow:rgba(16,16,143,.1);--glow:rgba(234,88,12,.18);color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#120D0A;--card:#1E1611;--ink:#F4EBE3;--mute:#CDBFB3;--navy:#C3C2FF;--a:#F58B4C;--line:#3A2E26;--soft:#2A2547;--shadow:rgba(0,0,0,.45);--glow:rgba(245,139,76,.2);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#120D0A;--card:#1E1611;--ink:#F4EBE3;--mute:#CDBFB3;--navy:#C3C2FF;--a:#F58B4C;--line:#3A2E26;--soft:#2A2547;--shadow:rgba(0,0,0,.45);--glow:rgba(245,139,76,.2);color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Poppins,Arial,sans-serif;line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.glow{position:fixed;left:0;top:0;width:460px;height:460px;margin:-230px 0 0 -230px;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 65%);pointer-events:none;z-index:0}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}
+.logo{font-weight:800;font-size:20px;color:var(--navy)}
+.logo b{color:var(--a)}
+nav .links{display:flex;gap:22px;font-size:14px;font-weight:500;color:var(--mute)}
+nav .links a:hover{color:var(--a)}
+.hero{position:relative;padding:50px 0 70px;text-align:center}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:99px;background:var(--card);border:1px solid var(--line);font-size:13px;font-weight:600;color:var(--navy)}
+.badge i{width:9px;height:9px;border-radius:50%;background:#22C55E;animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(34,197,94,.6)}100%{box-shadow:0 0 0 12px rgba(34,197,94,0)}}
+h1{font-size:clamp(40px,8vw,84px);line-height:1.05;margin:22px 0 10px;font-weight:800;letter-spacing:-.03em;color:var(--navy)}
+h1 span{color:var(--a)}
+.role{font-size:clamp(18px,3vw,28px);font-weight:600}
+.role em{font-style:normal;color:var(--a);border-bottom:3px solid var(--a)}
+.cur{display:inline-block;width:3px;height:1em;background:var(--a);margin-left:3px;vertical-align:-3px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.lead{max-width:620px;margin:18px auto 28px;color:var(--mute);font-size:16px}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{padding:13px 26px;border-radius:99px;font-weight:700;font-size:15px;transition:transform .25s,box-shadow .25s}
+.btn:hover{transform:translateY(-3px) scale(1.03)}
+.btn.p{background:linear-gradient(135deg,#EA580C,#C2410C);color:#fff;box-shadow:0 10px 24px rgba(234,88,12,.35)}
+.btn.s{background:var(--card);border:1px solid var(--line);color:var(--navy)}
+.fl{position:absolute;pointer-events:none}
+.ring{width:150px;height:150px;border-radius:50%;border:22px solid var(--a);opacity:.22;left:2%;top:40px;animation:spin 18s linear infinite;border-right-color:transparent}
+.dot{width:70px;height:70px;border-radius:50%;background:var(--navy);opacity:.16;right:6%;top:70px;animation:float 6s ease-in-out infinite}
+.sq{width:60px;height:60px;border-radius:16px;border:3px solid var(--a);opacity:.4;right:14%;bottom:40px;animation:spin 14s linear infinite reverse}
+.chipf{position:absolute;padding:8px 16px;border-radius:99px;background:var(--card);border:1px solid var(--line);box-shadow:0 8px 20px var(--shadow);font-size:13px;font-weight:600;color:var(--navy);animation:float 5s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.mq{background:var(--navy);color:#fff;overflow:hidden;white-space:nowrap;padding:14px 0;transform:rotate(-1.2deg);margin:10px -20px 40px}
+:root[data-theme="dark"] .mq{color:#120D0A}
+.mq div{display:inline-block;animation:marq 26s linear infinite;font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase}
+.mq span{margin:0 22px;color:var(--a)}
+@keyframes marq{to{transform:translateX(-50%)}}
+section{padding:56px 0}
+.eyebrow{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--a)}
+.eyebrow:before{content:"";width:26px;height:3px;border-radius:2px;background:var(--a)}
+h2{font-size:clamp(28px,4.5vw,44px);line-height:1.15;margin:10px 0 28px;font-weight:800;letter-spacing:-.02em;color:var(--navy)}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s var(--d,0s),transform .8s var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 8px 24px var(--shadow);transition:transform .3s,box-shadow .3s}
+.card:hover{transform:translateY(-8px);box-shadow:0 16px 34px var(--shadow)}
+.ic{width:48px;height:48px;border-radius:50%;background:var(--soft);color:var(--navy);display:flex;align-items:center;justify-content:center;margin-bottom:14px;transition:transform .5s,background .3s}
+.card:hover .ic{transform:rotate(360deg);background:var(--a);color:#fff}
+.i{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card h3{margin:0 0 4px;font-size:18px;color:var(--navy)}
+.card p{margin:0;color:var(--mute);font-size:14px}
+.about{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;align-items:center}
+.about p{color:var(--mute);font-size:16px;margin:0 0 14px}
+.pills span{display:inline-block;margin:0 8px 8px 0;padding:6px 16px;border-radius:99px;background:var(--soft);color:var(--navy);font-weight:600;font-size:13px}
+.tl{position:relative;padding-left:34px}
+.tl:before{content:"";position:absolute;left:10px;top:6px;bottom:6px;width:3px;border-radius:2px;background:linear-gradient(var(--a),var(--navy))}
+.tl .dotn{position:absolute;left:-34px;top:6px;width:23px;height:23px;border-radius:50%;background:var(--a);border:5px solid var(--bg);animation:pulse2 2s infinite}
+@keyframes pulse2{0%{box-shadow:0 0 0 0 rgba(234,88,12,.5)}100%{box-shadow:0 0 0 14px rgba(234,88,12,0)}}
+.tl .card{position:relative}
+.tl ul{margin:12px 0 0;padding:0;list-style:none}
+.tl li{display:flex;gap:10px;margin-bottom:8px;color:var(--mute);font-size:15px}
+.tl li svg{width:16px;height:16px;flex:none;margin-top:5px;fill:none;stroke:var(--a);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.proj{transition:transform .15s}
+.tags span{display:inline-block;margin:6px 8px 0 0;padding:5px 14px;border-radius:99px;background:var(--soft);color:var(--navy);font-weight:600;font-size:13px}
+.bars .card{max-width:100%}
+.b{margin-bottom:16px}
+.b div.l{display:flex;justify-content:space-between;font-weight:600;font-size:14px;margin-bottom:5px}
+.track{height:9px;border-radius:5px;background:var(--line);overflow:hidden}
+.track i{display:block;height:100%;width:0;border-radius:5px;background:linear-gradient(90deg,var(--a),#F59E0B);transition:width 1.4s cubic-bezier(.2,.8,.2,1) .3s}
+.in .track i{width:var(--w)}
+.sk{display:grid;grid-template-columns:1.2fr 1fr;gap:18px}
+.tb{position:relative;overflow:hidden;border-radius:24px;background:linear-gradient(160deg,#2B211B,#120D0A);border:1px solid #3A2E26;color:#F4EBE3}
+.tb .scroll{position:relative;z-index:1;overflow-x:auto}
+.tb .in2{min-width:640px}
+.tr{display:grid;grid-template-columns:190px 1fr 1.3fr;border-top:1px solid #3A2E26}
+.tr>div{padding:16px 20px;display:flex;align-items:center;gap:12px}
+.tr .me{background:rgba(224,128,58,.1)}
+.tr .f{font-weight:700;color:#fff}
+.tr .o{color:#D6C8BC;font-size:14px}
+.tr .w{font-weight:600;font-size:14px}
+.k{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none}
+.k svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.xi{border:1px solid #6A5A4E;color:#D6C8BC}
+.ci{border:1px solid #E0803A;background:rgba(224,128,58,.2);color:#F6AE72}
+.tb .rg{position:absolute;right:-80px;top:-90px;width:300px;height:300px;border-radius:50%;border:38px solid #E0803A;opacity:.22;animation:spin 24s linear infinite;border-bottom-color:transparent}
+.cta{text-align:center;padding:70px 20px;border-radius:32px;background:linear-gradient(135deg,#4338E8,#1E1AA6);color:#fff;position:relative;overflow:hidden}
+.cta h2{color:#fff;margin-bottom:12px}
+.cta p{margin:0 0 26px;opacity:.92}
+.cta .rg2{position:absolute;left:-60px;bottom:-80px;width:240px;height:240px;border-radius:50%;border:34px solid #FB923C;opacity:.3;animation:spin 20s linear infinite;border-right-color:transparent}
+.cta .btn{background:#fff;color:#10108F;position:relative}
+footer{text-align:center;color:var(--mute);font-size:13px;padding:30px 0 40px}
+.ptabs{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:28px}
+.pt{flex:1;min-width:250px;padding:20px 24px;border-radius:22px;border:2px solid var(--line);background:var(--card);color:var(--navy);font:inherit;font-weight:800;font-size:20px;text-align:left;cursor:pointer;transition:transform .3s,box-shadow .3s;display:flex;align-items:center;gap:14px}
+.pt small{display:block;font-weight:500;font-size:13px;color:var(--mute)}
+.pt:hover{transform:translateY(-4px)}
+.pt .n{width:46px;height:46px;flex:none;border-radius:50%;background:var(--soft);display:flex;align-items:center;justify-content:center;color:var(--a)}
+.pt.on{background:linear-gradient(135deg,#4338E8,#1E1AA6);color:#fff;border-color:transparent;box-shadow:0 14px 30px var(--shadow)}
+.pt.on small{color:#E4E4FF}
+.pt.on .n{background:rgba(255,255,255,.2);color:#fff}
+.pp{display:none}.pp.on{display:block;animation:fade .6s}
+@keyframes fade{from{opacity:0;transform:translateY(18px)}}
+.pgrid{display:grid;grid-template-columns:1.05fr 1fr;gap:34px;align-items:center}
+.pgrid h3{font-size:26px;margin:0 0 10px;color:var(--navy)}
+.pgrid p{color:var(--mute);margin:0 0 14px}
+.lap{max-width:640px;margin:0 auto}
+.scr{background:#0b0f1a;border:10px solid #1f2937;border-radius:18px 18px 4px 4px;aspect-ratio:16/10;position:relative;overflow:hidden;box-shadow:0 22px 44px var(--shadow);font-size:clamp(8px,1.8vw,12px);color:#E5E7EB}
+.base{height:14px;background:linear-gradient(#d4d8e0,#9aa1b0);border-radius:0 0 16px 16px;margin:0 -5%}
+.sc{position:absolute;inset:0;padding:5%;opacity:0;transition:opacity .6s}
+[data-step="1"] .s1,[data-step="2"] .s2,[data-step="3"] .s3,[data-step="4"] .s4{opacity:1}
+.rtop{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.rl{width:1.8em;height:1.8em;border-radius:50%;background:#FF4500;display:block}
+.srch{flex:1;background:#1c2233;border-radius:99px;padding:.3em 1em;color:#9aa3b5}
+.rp{background:#141a2b;border:1px solid #242c45;border-radius:10px;padding:.7em .9em;margin-bottom:8px}
+.rp u{display:block;height:.6em;border-radius:4px;background:#2a3250;width:80%;margin:.4em 0}
+.rp u.w2{width:50%}
+.rp.hot{border-color:#FF4500;animation:hotp 1.6s infinite}
+@keyframes hotp{50%{box-shadow:0 0 0 5px rgba(255,69,0,.25)}}
+.tag{background:#4338E8;border-radius:5px;padding:.1em .5em;font-weight:700;margin-right:.6em}
+.s2{text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6em}
+.s2 .h3{font-size:1.6em}
+.s2 p{margin:0;color:#aab3c8}
+.rbtn{margin-top:.4em;padding:.8em 2em;border-radius:99px;background:linear-gradient(135deg,#7C6CFF,#A78BFA);color:#fff;font-weight:700;animation:hotp 1.6s infinite}
+[data-step="2"] .rbtn{animation:press 1.2s 1.2s both}
+@keyframes press{40%{transform:scale(.9)}100%{transform:scale(1)}}
+.grad{background:linear-gradient(135deg,#4338E8,#7C3AED);border-radius:14px;padding:.9em 1.1em}
+.grad b{display:block;font-size:2em;line-height:1.2}
+.code{margin:.9em 0 .5em;font:800 2.6em/1 ui-monospace,Menlo,monospace;letter-spacing:.08em;color:#9D9DFF;text-align:center;animation:glow 1.4s infinite alternate}
+@keyframes glow{to{text-shadow:0 0 18px #7C6CFF}}
+.ok{display:inline-block;background:#12351f;color:#4ADE80;border-radius:99px;padding:.3em 1em;font-weight:700}
+.web{background:#141a2b;border:1px solid #242c45;border-radius:12px;padding:1.2em;margin-top:6%}
+.web small{display:block;color:#9aa3b5;margin:.2em 0 .8em}
+.inp{background:#0b0f1a;border:1px solid #3a4468;border-radius:8px;padding:.7em 1em;font:700 1.3em ui-monospace,Menlo,monospace}
+.ty{display:inline-block;overflow:hidden;white-space:nowrap;width:0;vertical-align:bottom}
+[data-step="4"] .ty{animation:ty 1.4s steps(10) .3s forwards}
+@keyframes ty{to{width:11ch}}
+.ver{margin-top:1em;color:#4ADE80;font-weight:700;opacity:0}
+[data-step="4"] .ver{animation:fi .5s 1.9s forwards}
+@keyframes fi{to{opacity:1}}
+.cursor{position:absolute;width:2.4em;left:75%;top:85%;z-index:3;transition:left 1s,top 1s,opacity .4s;filter:drop-shadow(0 2px 3px rgba(0,0,0,.5))}
+[data-step="1"] .cursor{left:55%;top:50%}
+[data-step="2"] .cursor{left:52%;top:60%}
+[data-step="3"] .cursor,[data-step="4"] .cursor{opacity:0}
+.stp{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:20px}
+.stp span{padding:6px 14px;border-radius:99px;background:var(--card);border:1px solid var(--line);font-size:13px;font-weight:600;color:var(--mute);transition:.3s}
+.stp span.on{background:var(--a);color:#fff;border-color:var(--a);transform:scale(1.06)}
+.ps{border-left:4px solid var(--a);background:var(--card);border-radius:0 14px 14px 0;padding:12px 16px;margin-bottom:12px;font-size:14px;color:var(--mute)}
+.ps b{display:block;color:var(--navy);font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}
+.stats div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px;text-align:center;box-shadow:0 6px 16px var(--shadow)}
+.stats b{display:block;font-size:22px;color:var(--a);font-weight:800}
+.stats small{font-size:11px;color:var(--mute);line-height:1.3;display:block}
+.dash{background:#0f1424;border:1px solid #232a44;border-radius:22px;padding:18px;color:#E5E7EB;font-size:12px;box-shadow:0 22px 44px var(--shadow)}
+.mts{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0}
+.mts div{background:#171d33;border:1px solid #242c45;border-radius:12px;padding:8px;text-align:center}
+.mts b{display:block;font-size:20px}
+.mts small{font-size:9px;color:#9aa3b5;letter-spacing:.05em}
+.dr{display:flex;gap:14px;align-items:center;background:#171d33;border:1px solid #242c45;border-radius:14px;padding:12px;margin-bottom:10px}
+.rg3{width:86px;height:86px;flex:none;transform:rotate(-90deg)}
+.rg4{stroke-dasharray:301.6;stroke-dashoffset:175;animation:fr 1.8s ease-out}
+@keyframes fr{from{stroke-dashoffset:301.6}}
+.sb{flex:1}
+.sb div.l{display:flex;justify-content:space-between;font-weight:600;margin-bottom:2px}
+.sb .t2{height:7px;border-radius:4px;background:#2a3252;margin-bottom:8px;overflow:hidden}
+.sb .t2 i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#7C6CFF,#22D3EE);animation:gw 1.6s ease-out}
+@keyframes gw{from{width:0}}
+.pl{display:flex;gap:8px;align-items:center;background:#171d33;border:1px solid #242c45;border-radius:10px;padding:8px 10px;margin-bottom:6px}
+.pl em{font-style:normal;color:#8B8BFF;font-weight:700;white-space:nowrap}
+.pl span.c{margin-left:auto;font-size:9px;font-weight:700;padding:2px 8px;border-radius:99px;background:#26304f;color:#9aa3b5}
+.pl span.c.g{background:#12351f;color:#4ADE80}
+.pl span.c.u{background:#312a63;color:#A5A0FF;animation:hotp 1.6s infinite}
+.trd{width:100%;height:70px;margin-top:6px}
+.trd path.ln{fill:none;stroke:#8B8BFF;stroke-width:3;stroke-dasharray:420;stroke-dashoffset:0;animation:dr 2.2s ease-out}
+@keyframes dr{from{stroke-dashoffset:420}}
+.note{font-size:12px;color:var(--mute);margin-top:10px;text-align:center}
+@media (max-width:760px){.pgrid{grid-template-columns:1fr}nav .links{display:none}.about,.sk{grid-template-columns:1fr}.chipf{display:none}.hero{padding-top:30px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.track i{width:var(--w)}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="pen" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></symbol>
+<symbol id="chat" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+<symbol id="line" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></symbol>
+<symbol id="bars" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M8 17v-4M13 17V8M18 17v-7"/></symbol>
+<symbol id="slides" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+<symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20"/></symbol>
+<symbol id="ck" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+<symbol id="x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+</defs></svg>
+<div class="glow" id="glow" aria-hidden="true"></div>
+<div class="wrap">
+<nav>
+<a class="logo" href="#top">Vansh<b>.</b></a>
+<div class="links"><a href="#projects">Projects</a><a href="#about">About</a><a href="#services">Services</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+</nav>
+<header class="hero" id="top">
+<div class="fl ring" aria-hidden="true"></div><div class="fl dot" aria-hidden="true"></div><div class="fl sq" aria-hidden="true"></div>
+<div class="chipf" style="left:6%;top:230px;animation-delay:.4s" aria-hidden="true">Moderation</div>
+<div class="chipf" style="right:5%;top:300px;animation-delay:1.2s" aria-hidden="true">Data Analysis</div>
+<div class="chipf" style="left:12%;bottom:30px;animation-delay:2s" aria-hidden="true">Content Writing</div>
+<div class="chipf" style="right:16%;top:20px;animation-delay:.8s" aria-hidden="true">Statistics</div>
+<div class="badge"><i></i>Open for freelance work</div>
+<h1>Hi, I’m <span>Vansh Saini</span></h1>
+<div class="role">I’m a <em id="tw">Community Manager</em><span class="cur"></span></div>
+<p class="lead">I run online communities, write original content and turn raw data into clear insights. Fast turnaround, careful review on every piece, and prices that stay affordable.</p>
+<div class="btns"><a class="btn p" href="#projects">Explore my projects</a><a class="btn s" href="mailto:sainivansh1708@gmail.com">Email me</a></div>
+</header>
+</div>
+<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+<div class="wrap">
+<section id="projects">
+<div class="eyebrow rv">Projects</div>
+<h2 class="rv">Things I’ve built that people actually use</h2>
+<div class="ptabs rv"><button class="pt on" data-t="pa"><span class="n">1</span><span>Reddit Registration App<small>500+ students registered</small></span></button><button class="pt" data-t="pb"><span class="n">2</span><span>Exam Prep Tracker<small>A complete study dashboard</small></span></button></div>
+<div class="pp on" id="pa"><div class="pgrid">
+<div><div class="lap" id="lap" data-step="1"><div class="scr">
+<div class="sc s1"><div class="rtop"><i class="rl"></i><b>reddit</b><span class="srch">Search</span></div><div class="rp"><u></u><u class="w2"></u></div><div class="rp hot"><span class="tag">APP</span><b>Exam registration: register here</b><u class="w2"></u></div><div class="rp"><u></u><u class="w2"></u></div></div>
+<div class="sc s2"><b class="h3">Exam registration</b><p>Log in with your Reddit account to register.</p><div class="rbtn">Register now</div></div>
+<div class="sc s3"><div class="grad"><small>EXAM REGISTRATION</small><b>You’re in!</b><span>Seat booked. Your unique code is below.</span></div><div class="code">EXM-7K2QPX</div><div style="text-align:center"><span class="ok">✓ Registration confirmed</span></div></div>
+<div class="sc s4"><div class="web"><b>Exam website</b><small>Enter your registration code</small><div class="inp"><span class="ty">EXM-7K2QPX</span></div><div class="ver">✓ Verified: matches your Reddit account</div></div></div>
+<svg class="cursor" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 2l16 9-7 2-3 7z" fill="#fff" stroke="#111" stroke-width="1.5"/></svg>
+</div><div class="base"></div></div>
+<div class="stp" id="stp"><span class="on">1 Open Reddit</span><span>2 Tap Register</span><span>3 Get your code</span><span>4 Log in to the exam</span></div>
+<div class="note">Illustrative demo with sample data</div></div>
+<div class="rv"><h3>Reddit Registration App</h3>
+<p>I built a registration app on Reddit’s Devvit platform and posted it publicly. More than 500 students used it to register for an online examination, and a community grew around it. People found it simple and genuinely interesting to use.</p>
+<div class="ps"><b>The problem</b>Exam registration usually means giving up anonymity, or leaves room for someone to register as somebody else.</div>
+<div class="ps"><b>My solution</b>Registration works only through a verified Reddit login, so every entry is tied to one real account and nobody has to reveal who they are.</div>
+<div class="stats"><div><b><span class="cnt" data-n="500">500</span>+</b><small>students registered</small></div><div><b>Verified</b><small>Reddit login on every entry</small></div><div><b>Unique</b><small>code for each student</small></div></div>
+<ul style="padding:0;margin:0 0 14px;list-style:none"><li style="margin-bottom:8px;display:flex;gap:10px;color:var(--mute)"><svg class="i" style="width:16px;height:16px;flex:none;margin-top:5px;color:var(--a);stroke-width:3"><use href="#ck"/></svg>Students tap one button on Reddit and get their code instantly</li><li style="margin-bottom:8px;display:flex;gap:10px;color:var(--mute)"><svg class="i" style="width:16px;height:16px;flex:none;margin-top:5px;color:var(--a);stroke-width:3"><use href="#ck"/></svg>The organisers linked each code to their exam website, so only the verified account could log in</li><li style="margin-bottom:8px;display:flex;gap:10px;color:var(--mute)"><svg class="i" style="width:16px;height:16px;flex:none;margin-top:5px;color:var(--a);stroke-width:3"><use href="#ck"/></svg>Moderator tools to set the registration window, deadline and exam countdown</li></ul>
+<div class="tags"><span>Reddit Devvit</span><span>Authentication</span><span>Community</span><span>Problem solving</span></div></div>
+</div></div>
+<div class="pp" id="pb"><div class="pgrid">
+<div class="dash"><b style="font-size:15px">Good afternoon</b>
+<div class="mts"><div><small>STREAK</small><b>12</b><small>days</small></div><div><small>AVG HRS/DAY</small><b>5.5</b><small>hrs</small></div><div><small>TASKS TODAY</small><b>7/12</b><small>done</small></div><div><small>TESTS LOGGED</small><b>9</b><small>total</small></div></div>
+<div class="dr"><svg class="rg3" viewBox="0 0 120 120"><circle cx="60" cy="60" r="48" fill="none" stroke="#2a3252" stroke-width="12"/><circle class="rg4" cx="60" cy="60" r="48" fill="none" stroke="#8B8BFF" stroke-width="12" stroke-linecap="round"/></svg>
+<div class="sb"><div class="l"><span>Syllabus done</span><span>42%</span></div><div class="t2"><i style="width:42%"></i></div><div class="l"><span>Physics</span><span>38%</span></div><div class="t2"><i style="width:38%"></i></div><div class="l"><span>Chemistry</span><span>51%</span></div><div class="t2"><i style="width:51%"></i></div><div class="l"><span>Maths</span><span>44%</span></div><div class="t2" style="margin:0"><i style="width:44%"></i></div></div></div>
+<div class="pl"><em>9:00 AM</em>Chapter lecture and notes<span class="c g">DONE</span></div>
+<div class="pl"><em>11:00 AM</em>Timed practice set<span class="c u">UP NEXT</span></div>
+<div class="pl"><em>4:00 PM</em>Revise mistakes<span class="c">LATER</span></div>
+<svg class="trd" viewBox="0 0 300 70" preserveAspectRatio="none" aria-hidden="true"><path class="ln" d="M0 52 L40 44 L80 50 L120 30 L160 36 L200 20 L240 26 L300 8"/></svg></div>
+<div class="rv"><h3>Exam Prep Tracker</h3>
+<p>I built this complete study dashboard early in my own exam preparation. It includes a login system, so every user’s progress saves to their own account and syncs across devices.</p>
+<div class="tags"><span>Login system</span><span>Daily planner with reminders</span><span>Syllabus tracker</span><span>Question bank</span><span>Formula notebook</span><span>Mistake notebook</span><span>Timer &amp; calculator</span><span>Streaks &amp; analytics</span></div>
+<div class="note" style="text-align:left">Numbers shown are sample data.</div></div>
+</div></div>
+</section>
+<section id="about">
+<div class="eyebrow rv">About</div>
+<h2 class="rv">Real community experience, now open to freelance work</h2>
+<div class="about">
+<div class="rv"><p>I’ve managed multiple Reddit communities, handling day-to-day moderation, writing and posting original content, and keeping members engaged and conversations healthy.</p><p>Alongside that, I take on data and statistical analysis, presentations and documents, and English–Hindi translation. I’m a problem solver at heart: I build tools that real communities use. I’m currently pursuing my Bachelor of Engineering.</p></div>
+<div class="rv pills" style="--d:.15s"><span>Community Management</span><span>Content Writing</span><span>Data Analysis</span><span>Statistical Analysis</span><span>Presentations</span><span>Problem Solving</span><span>English and Hindi</span></div>
+</div>
+</section>
+<section id="services">
+<div class="eyebrow rv">Services</div>
+<h2 class="rv">What I can do for you</h2>
+<div class="grid">
+<div class="card rv"><div class="ic"><svg class="i"><use href="#pen"/></svg></div><h3>Writing &amp; Content</h3><p>Blogs, product copy, captions and newsletters, edited and fact-checked.</p></div>
+<div class="card rv" style="--d:.1s"><div class="ic"><svg class="i"><use href="#chat"/></svg></div><h3>Community Management</h3><p>Daily moderation, original posts and member engagement that keeps a community active.</p></div>
+<div class="card rv" style="--d:.2s"><div class="ic"><svg class="i"><use href="#line"/></svg></div><h3>Data Analysis</h3><p>Data cleaning, entry and spreadsheets turned into clear, usable insights.</p></div>
+<div class="card rv"><div class="ic"><svg class="i"><use href="#bars"/></svg></div><h3>Statistical Analysis</h3><p>Descriptive statistics and trends explained in plain language, with tidy reports.</p></div>
+<div class="card rv" style="--d:.1s"><div class="ic"><svg class="i"><use href="#slides"/></svg></div><h3>Presentations &amp; Docs</h3><p>Polished decks, reports and templates that look professional.</p></div>
+<div class="card rv" style="--d:.2s"><div class="ic"><svg class="i"><use href="#globe"/></svg></div><h3>Translation</h3><p>Natural English and Hindi translation and proofreading.</p></div>
+</div>
+</section>
+<section id="experience">
+<div class="eyebrow rv">Experience</div>
+<h2 class="rv">Where I’ve built my skills</h2>
+<div class="tl rv"><span class="dotn"></span>
+<div class="card"><h3>Reddit Community Manager &amp; Moderator</h3><p>Multiple communities</p>
+<ul>
+<li><svg viewBox="0 0 24 24"><use href="#ck"/></svg>Moderated multiple Reddit communities every day</li>
+<li><svg viewBox="0 0 24 24"><use href="#ck"/></svg>Wrote and posted original content regularly</li>
+<li><svg viewBox="0 0 24 24"><use href="#ck"/></svg>Engaged members through replies, discussions and activities</li>
+<li><svg viewBox="0 0 24 24"><use href="#ck"/></svg>Enforced rules and handled spam and member conflicts</li>
+</ul></div>
+</div>
+</section>
+<section id="skills">
+<div class="eyebrow rv">Skills</div>
+<h2 class="rv">What I’m good at</h2>
+<div class="sk">
+<div class="card rv bars">
+<div class="b"><div class="l"><span>Community Moderation</span></div><div class="track"><i style="--w:92%"></i></div></div>
+<div class="b"><div class="l"><span>Content Writing</span></div><div class="track"><i style="--w:90%"></i></div></div>
+<div class="b"><div class="l"><span>Audience Engagement</span></div><div class="track"><i style="--w:90%"></i></div></div>
+<div class="b"><div class="l"><span>Data Analysis</span></div><div class="track"><i style="--w:85%"></i></div></div>
+<div class="b"><div class="l"><span>Statistical Analysis</span></div><div class="track"><i style="--w:80%"></i></div></div>
+<div class="b"><div class="l"><span>Research</span></div><div class="track"><i style="--w:85%"></i></div></div>
+<div class="b"><div class="l"><span>Problem Solving</span></div><div class="track"><i style="--w:90%"></i></div></div>
+<div class="b" style="margin:0"><div class="l"><span>Spreadsheets</span></div><div class="track"><i style="--w:80%"></i></div></div>
+</div>
+<div class="card rv" style="--d:.15s"><h3>Tools I use</h3><div class="tags"><span>Reddit</span><span>Reddit Devvit</span><span>Word</span><span>Excel</span><span>PowerPoint</span><span>Google Docs</span><span>Google Sheets</span><span>Google Slides</span></div><h3 style="margin-top:22px">Languages</h3><div class="tags"><span>English</span><span>Hindi</span></div></div>
+</div>
+</section>
+<section id="why">
+<div class="eyebrow rv">Why work with me</div>
+<h2 class="rv">What you get, and what you avoid</h2>
+<div class="tb rv"><div class="rg"></div><div class="scroll"><div class="in2">
+<div class="tr" style="border-top:0"><div style="color:#D6C8BC;font-size:13px">Service</div><div style="flex-direction:column;align-items:flex-start;gap:0"><b style="color:#fff">Typical freelancer</b><small style="color:#D6C8BC">What to avoid</small></div><div class="me" style="flex-direction:column;align-items:flex-start;gap:0;border-top:3px solid #E0803A"><b style="color:#fff;font-size:20px;font-weight:800">Me</b><small style="color:#D6C8BC">What you get</small></div></div>
+<div class="tr"><div class="f">Writing &amp; Content</div><div><span class="k xi"><svg viewBox="0 0 24 24"><use href="#x"/></svg></span><span class="o">Copied or generic text</span></div><div class="me"><span class="k ci"><svg viewBox="0 0 24 24"><use href="#ck"/></svg></span><span class="w">Original writing, edited and fact-checked</span></div></div>
+<div class="tr"><div class="f">Community Management</div><div><span class="k xi"><svg viewBox="0 0 24 24"><use href="#x"/></svg></span><span class="o">Irregular, slow to reply</span></div><div class="me"><span class="k ci"><svg viewBox="0 0 24 24"><use href="#ck"/></svg></span><span class="w">Daily moderation, posting and engagement</span></div></div>
+<div class="tr"><div class="f">Data &amp; Statistical Analysis</div><div><span class="k xi"><svg viewBox="0 0 24 24"><use href="#x"/></svg></span><span class="o">Raw numbers, no insight</span></div><div class="me"><span class="k ci"><svg viewBox="0 0 24 24"><use href="#ck"/></svg></span><span class="w">Clean data, clear stats and takeaways</span></div></div>
+<div class="tr"><div class="f">Presentations &amp; Docs</div><div><span class="k xi"><svg viewBox="0 0 24 24"><use href="#x"/></svg></span><span class="o">Messy formatting</span></div><div class="me"><span class="k ci"><svg viewBox="0 0 24 24"><use href="#ck"/></svg></span><span class="w">Polished decks, reports and templates</span></div></div>
+<div class="tr"><div class="f">Translation</div><div><span class="k xi"><svg viewBox="0 0 24 24"><use href="#x"/></svg></span><span class="o">Word-for-word output</span></div><div class="me"><span class="k ci"><svg viewBox="0 0 24 24"><use href="#ck"/></svg></span><span class="w">Natural English and Hindi, proofread</span></div></div>
+</div></div></div>
+</section>
+<section id="contact">
+<div class="cta rv"><div class="rg2"></div><h2 style="position:relative">Let’s work together</h2><p style="position:relative">Tell me what you need and I’ll get back to you quickly.</p><a class="btn" href="mailto:sainivansh1708@gmail.com">sainivansh1708@gmail.com</a></div>
+</section>
+<footer>© Vansh Saini</footer>
+</div>
+<script>
+(function(){
+var words=["Community Manager","Content Writer","Data Analyst","Reddit Moderator"],tw=document.getElementById("tw");
+var m=document.getElementById("mq"),items=["Moderation","Original content","Audience engagement","Data analysis","Statistical analysis","Problem solving","Research","Presentations","Translation"],h="";
+for(var r=0;r<2;r++){items.forEach(function(t){h+=t+"<span>&#9679;</span>"})}
+m.innerHTML=h+h;
+var still=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if(!still){var wi=0,ci=0,del=false;(function loop(){var w=words[wi];if(!del){ci++;tw.textContent=w.slice(0,ci);if(ci===w.length){del=true;return setTimeout(loop,1400)}}else{ci--;tw.textContent=w.slice(0,ci);if(ci===0){del=false;wi=(wi+1)%words.length}}setTimeout(loop,del?40:85)})()}
+var els=document.querySelectorAll(".rv");
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.12});els.forEach(function(e){io.observe(e)})}else{els.forEach(function(e){e.classList.add("in")})}
+var g=document.getElementById("glow");
+if(!still){window.addEventListener("mousemove",function(e){g.style.transform="translate("+e.clientX+"px,"+e.clientY+"px)"})}
+document.querySelectorAll(".tilt").forEach(function(c){
+c.addEventListener("mousemove",function(e){if(still)return;var b=c.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;c.style.transform="perspective(800px) rotateX("+(-y*8)+"deg) rotateY("+(x*8)+"deg)"});
+c.addEventListener("mouseleave",function(){c.style.transform=""})});
+var tabs=document.querySelectorAll(".pt");tabs.forEach(function(t){t.addEventListener("click",function(){tabs.forEach(function(x){x.classList.remove("on")});document.querySelectorAll(".pp").forEach(function(x){x.classList.remove("on")});t.classList.add("on");document.getElementById(t.dataset.t).classList.add("on")})});
+var lap=document.getElementById("lap"),sp=document.querySelectorAll("#stp span"),st=1;
+function setS(n){lap.dataset.step=n;sp.forEach(function(x,i){x.classList.toggle("on",i===n-1)})}
+if(still){setS(3)}else{setInterval(function(){st=st%4+1;setS(st)},3600)}
+var cn=document.querySelector(".cnt");
+if(cn&&"IntersectionObserver" in window&&!still){var co=new IntersectionObserver(function(es){if(es[0].isIntersecting){co.disconnect();var v=0;var iv=setInterval(function(){v+=10;cn.textContent=v;if(v>=500)clearInterval(iv)},25)}},{threshold:.3});co.observe(cn)}
+})();
+</script>
+</body>
+</html>
